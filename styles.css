@@ -23,4 +23,20 @@ body {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.nav p {
+	font-family: inherit;
+	color: var(--powder-blue);
+	font-size: 24px;
+	background-color: var(--cerulean);
+	border: 2px solid var(--space-cadet);
+	border-radius: 8px;
+	padding: 10px;
+	margin: 30px;
 }
