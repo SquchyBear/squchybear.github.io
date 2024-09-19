@@ -27,10 +27,11 @@ body {
     top: 0;
     left: 0;
     z-index: 100;
-	font-family: inherit;
+	font-family: "Nunito";
 }
 
 .nav p {
+	display: flex;
     cursor: pointer;
     color: var(--powder-blue);
     font-size: 24px;
@@ -38,6 +39,7 @@ body {
 	height: 50px;
     position: relative;
     overflow: hidden;
+	font-family: inherit;
 }
 
 .nav p::before {
@@ -69,7 +71,7 @@ body {
 }
 
 .nav h1 {
-    color: var(--powder-blue);
+	color: var(--powder-blue);
 	font-family: inherit; 
     font-size: 24px;
     margin: 0 10px;
