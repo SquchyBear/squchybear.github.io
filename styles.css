@@ -9,7 +9,7 @@
 }
 
 body {
-	bacground-color: var(--space-cadet);
+	background-color: var(--space-cadet);
 	font-family: "Nunito";
 	display: flex;
 	flex-direction: column;
@@ -18,8 +18,9 @@ body {
 }
 
 .nav {
-	background-image: linear-gradient(to left, var(--yale-blue), var(--lapis-lazuli);
-	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
+    background-image: linear-gradient(to left, var(--yale-blue), var(--lapis-lazuli));
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
