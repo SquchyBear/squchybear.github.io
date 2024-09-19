@@ -40,12 +40,37 @@ body {
 	border-radius: 8px;
 	padding: 0 10px;
 	margin: 10px 30px;
+	transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.nav p::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--powder-blue);
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
+}
+
+.nav p:hover::before {
+	background-color: var(--cerulean);
+	border: 2px solid var(--space-cadet);
+	border-radius: 8px;
+	transform: scaleX(1);
 }
 
 .nav img {
-	height: 100%;
-	width: auto;
+	height: 32px;
+	width: 32px;
 	margin: 10px 30px;
 	object-fit: contain;
 	border-radius: 50%;
+}
+
+.nav h1 {
+	font-size: 24px
 }
