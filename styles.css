@@ -23,6 +23,7 @@ body {
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
+	padding: 10px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -35,11 +36,8 @@ body {
 	cursor: pointer;
 	color: var(--powder-blue);
 	font-size: 24px;
-	padding: 0 10px;
-	margin: 10px 30px;
 	position: relative;
 	overflow: hidden;
-	transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .nav p::before {
@@ -55,12 +53,6 @@ body {
 	transition: transform 0.3s ease;
 }
 
-.nav p::hover {
-	background-color: var(--cerulean);
-	border: 2px solid var(--space-cadet);
-	border-radius: 8px;
-}	
-
 .nav p:hover::before {
 	transform: scaleX(1);
 }
@@ -68,7 +60,6 @@ body {
 .nav img {
 	height: 32px;
 	width: 32px;
-	margin: 10px 30px;
 	object-fit: contain;
 	border-radius: 50%;
 }
