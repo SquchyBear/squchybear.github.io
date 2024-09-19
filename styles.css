@@ -37,6 +37,6 @@ body {
 	background-color: var(--cerulean);
 	border: 2px solid var(--space-cadet);
 	border-radius: 8px;
-	padding: 10px;
-	margin: 30px;
+	padding: 0 10px;
+	margin: 10px 30px;
 }
