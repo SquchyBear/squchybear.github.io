@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+	--space-cadet: #21295C;
+	--yale-blue: #1B3B6F;
+	--lapis-lazuli: #065A82;
+	--cerulean: #1C7293;
+	--powder-blue: #9EB3C2;
+}
+
+body {
+	bacground-color: var(--space-cadet);
+	font-family: "Nunito";
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav {
+	background-image: linear-gradient(to left, var(--yale-blue), var(--lapis-lazuli);
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
