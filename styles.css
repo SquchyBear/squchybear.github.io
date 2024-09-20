@@ -20,6 +20,11 @@ body {
     justify-content: center;
     align-items: center;
 	padding: 60px;
+	padding-top: 45px;
+}
+
+h1{
+	color: var(--powder-blue);
 }
 
 .nav {
