@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root {
     --space-cadet: #21295C;
     --yale-blue: #1B3B6F;
@@ -36,7 +38,7 @@ body {
     color: var(--powder-blue);
     font-size: 24px;
 	margin: 0 30px;
-	height: 50px;
+	height: 30px;
     position: relative;
     overflow: hidden;
 	font-family: inherit;
